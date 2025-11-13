@@ -3,5 +3,11 @@
     "api/sendMessage/route.ts": {
       "runtime": "nodejs20.x"
     }
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/sendMessage",
+      "schedule": "0 * * * *"
+    }
+  ]
 }
